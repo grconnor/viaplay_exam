@@ -13,15 +13,28 @@ const App = () => {
   if (seriesCollection) {
     displaySeries = seriesCollection.map((serie) => {
       return (
-        <img
-          src={serie.content.images.boxart.url}
-          alt={serie.content.originalTitle}
-        />
+        <div className="display-show">
+          <img
+            src={serie.content.images.landscape.url}
+            alt={serie.content.originalTitle}
+          />
+        </div>
       );
     });
   }
 
-  return <div>{displaySeries}</div>;
+  return (
+    <>
+      <div className="header">
+        <img
+          src="https://kundservice.viaplay.se/wp-content/themes/viaplaycs/assets/dist/images/viaplay_white.svg"
+          alt="logo"
+        />
+      </div>
+      <div >{displaySeries}</div>
+      <div className='footer'/>
+    </>
+  );
 };
 
 export default App;
