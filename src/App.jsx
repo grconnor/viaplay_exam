@@ -31,8 +31,8 @@ const App = () => {
           alt="logo"
         />
       </div>
-      <div >{displaySeries}</div>
-      <div className='footer'/>
+      <div>{displaySeries}</div>
+      <div className="footer" />
     </>
   );
 };
