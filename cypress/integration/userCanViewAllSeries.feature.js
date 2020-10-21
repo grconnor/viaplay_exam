@@ -6,7 +6,7 @@ describe("Visitor can see interface", () => {
       url:
         "https://cors-anywhere.herokuapp.com/https://cors-anywhere.herokuapp.com/https://content.viaplay.se/pc-se/serier/samtliga",
       response: "fixture:viaplay_series.json",
-    ));
+    });
     cy.visit("http://localhost:3000")
   })
 
