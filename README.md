@@ -1,3 +1,6 @@
+![Screenshot_header](src/images/Viaplay_header.png?raw=true "Screenshot1")
+![Screenshot_footer](src/images/Viaplay_footer.png?raw=true "Screenshot2")
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
