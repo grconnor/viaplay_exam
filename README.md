@@ -10,6 +10,7 @@
 
 [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Naereen/StrapDown.js.svg)](https://GitHub.com/grconnor/viaplay_exam/pulls/)
 
+
 # The News Room Challenge:
 
 - We were challenged with replicating a given website in a certain amount of time. The applications purpose was to send a request to an api and provide the user with the top 10 series at the time of the request.
